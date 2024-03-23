@@ -118,3 +118,47 @@ On Windows, use `venv\Scripts\activate`
 
 ## Running the Notebooks
 1. Launch Jupyter Notebook or JupyterLab: With the dependencies installed, you can start Jupyter Notebook or JupyterLab to open and run the provided notebooks.
+`jupyter notebook` or `jupyter lab`
+2. Navigate to the cloned repository's directory within the Jupyter interface and open the notebook you wish to run.
+3. Follow the instructions within each notebook to proceed with your analysis.
+
+
+## Example Usage
+After setting up your environment, you're ready to use the toolbox:
+
+1. Prepare your dataset according to the guidelines provided in the notebooks.
+2. Annotate your images, ensuring you have 60-80 well-annotated images to optimize the model's learning. Use recommended tools like ImageJ, VGG Image Annotator (VIA).
+3. Execute the notebooks in order, starting from preprocessing to training and testing the model.
+Note
+The quality, accuracy of shapes to be detected, and lighting conditions significantly affect the segmentation quality and the model's effectiveness. It's crucial to ensure your annotated images reflect the conditions of the microscopic shapes under investigation for optimal results.
+
+## Contributing
+
+We welcome contributions from the community! Whether it's adding new features, improving documentation, or reporting bugs, your help makes this toolbox better for everyone.
+
+To contribute:
+- Fork the repository.
+- Create a new branch for your feature or fix.
+- Submit a pull request with a clear description of your changes.
+
+Please refer to our [Contribution Guidelines](LINK) for more detailed information.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+
+## Acknowledgments
+
+- This work was supported by the Helmholtz AI projects via funding the T6 project (grant ZT-1-PF-5-084). The experiments were conducted within the frame of the VESPA II project which was funded by the German Federal Ministry for the Environment, Nature Conservation, Nuclear Safety and Consumer Protection (BMUV, grant 02E11607D).
+- Special thanks to all our beta testers for their valuable feedback.
+
+## Frequently Asked Questions (FAQ)
+
+- **Q: Can I use the toolbox on macOS?**
+- A: Currently, the toolbox is optimized for Windows and Linux. macOS compatibility is planned for future updates.
+
+- **Q: How many images do I need to start analyzing my data?**
+- A: A set of 60-80 well-annotated images is recommended for meaningful analysis. The quality, accuracy of shapes to be detected, and lighting conditions significantly affect the segmentation quality and the model's ability to detect the microscopic shapes under investigation.
+
+- **Q: What should I do if I encounter an error during installation?**
+- A: Ensure all prerequisites are installed and check the error message for clues. For further assistance, please open an issue in the GitHub repository.
