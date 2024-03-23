@@ -122,16 +122,30 @@ On Windows, use `venv\Scripts\activate`
 2. Navigate to the cloned repository's directory within the Jupyter interface and open the notebook you wish to run.
 3. Follow the instructions within each notebook to proceed with your analysis.
 
-
 ## Example Usage
-After setting up your environment, you're ready to use the toolbox:
 
-1. Prepare your dataset according to the guidelines provided in the notebooks.
-2. Annotate your images, ensuring you have 60-80 well-annotated images to optimize the model's learning. Use recommended tools like ImageJ, VGG Image Annotator (VIA).
-3. Execute the notebooks in order, starting from preprocessing to training and testing the model.
-   
-### Note
-The effectiveness of the segmentation and the model's ability to detect microscopic shapes under investigation highly depend on the conditions of your annotated images. Optimal results are achieved when the images accurately reflect the microscopic shapes' quality, accuracy, and lighting conditions.
+To fully leverage the AI-Assisted Toolbox for Quantifying Mineral Transformations, follow the sequence of Jupyter notebooks detailed below. This structured approach guides you from preprocessing your datasets to calculating the half-life of mineral transformations.
+
+### Sequence of Notebooks:
+
+1. **Preprocessing (`Half-Life_preprocess.ipynb`):**
+   Begin with this notebook to prepare your images for analysis. It focuses on enhancing image quality through techniques such as noise reduction, contrast adjustment, and other preprocessing steps essential for achieving accurate segmentation results.
+
+2. **Training the Model (`CNN_Train.ipynb`):**
+   Once your data is preprocessed, move on to training the convolutional neural network (CNN). This notebook walks you through configuring and training the model on your dataset, aiming to learn the features necessary for identifying and classifying different mineral phases.
+
+3. **Testing the Model (`CNN_Test.ipynb`):**
+   After training, it's crucial to test the model's performance on unseen data. This notebook allows you to evaluate how well the model generalizes, providing insights into its accuracy and reliability for analyzing new images.
+
+4. **Post-Processing Analysis (`Check_circularity.ipynb`):**
+   With segmentation results in hand, this notebook aids in the post-processing analysis, particularly focusing on checking the circularity of detected features. Circularity metrics can be vital for understanding specific characteristics of the mineral phases.
+
+5. **Calculating Results (`Calculate_Half_Life.ipynb`):**
+   The final step involves calculating the half-life of mineral transformations based on the processed data. This notebook synthesizes the findings from previous steps to offer quantitative insights into the dynamics of mineral changes, encapsulating the essence of your mineralogical study.
+
+### Important Note:
+
+For optimal results, ensure your dataset comprises 40-50 well-annotated images. The quality of your annotated images—including factors like resolution, accuracy of shape detection, and consistent lighting conditions—significantly influences the model's ability to learn and accurately segment the microscopic shapes under investigation. This foundation is crucial for deriving meaningful insights from your mineralogical analysis.
 
 ## Contributing
 
