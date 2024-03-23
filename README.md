@@ -52,7 +52,6 @@ Before leveraging the AI-Assisted Toolbox for Quantifying Mineral Transformation
 2. **Choosing the Right Annotation Tool**: Select an annotation tool that aligns with your project's needs. The tool should offer precision in marking areas of interest and be user-friendly. Here are three recommended tools, each suitable for different aspects of annotation:
    - **ImageJ**: Ideal for scientific images, allowing detailed annotations and measurements. [Download ImageJ](https://imagej.nih.gov/ij/download.html)
    - **VGG Image Annotator (VIA)**: A versatile, web-based tool for annotating images, videos, and audio. It's user-friendly and suitable for beginners. [Access VIA](http://www.robots.ox.ac.uk/~vgg/software/via/)
-   - **ZEISS arivis Cloud**: Provides advanced annotation capabilities, particularly beneficial for handling large datasets and complex annotations. [Explore ZEISS arivis Cloud](https://www.zeiss.com/microscopy/en/home.html)
 
 3. **Manual Annotation Process**: Carefully annotate your images by delineating the areas of interest, such as specific mineral phases or features critical for your study. This step might involve drawing precise boundaries around regions or tagging certain features within the images.
 
