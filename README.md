@@ -141,7 +141,7 @@ To fully leverage the AI-Assisted Toolbox for Quantifying Mineral Transformation
    With segmentation results in hand, this notebook aids in the post-processing analysis, particularly focusing on checking the circularity of detected features. Circularity metrics can be vital for understanding specific characteristics of the mineral phases.
 
 5. **Calculating Results (`Calculate_Half_Life.ipynb`):**
-   The final step involves calculating the half-life of mineral transformations based on the processed data. This notebook synthesizes the findings from previous steps to offer quantitative insights into the dynamics of mineral changes, encapsulating the essence of your mineralogical study.
+   The final step involves calculating meaningful results (we calculated the half-life of mineral transformations) based on the processed data. This notebook synthesizes the findings from previous steps to offer quantitative insights into the dynamics of mineral changes, encapsulating the essence of your mineralogical study.
 
 ### Important Note:
 
