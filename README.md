@@ -112,4 +112,9 @@ Installation
 ### Create a virtual environment (optional but recommended): Using a virtual environment helps manage dependencies and avoid conflicts with other Python projects.
 `python -m venv venv
 source venv/bin/activate`  
-# On Windows, use `venv\Scripts\activate`
+On Windows, use `venv\Scripts\activate`
+### Install the required libraries: Navigate to the cloned repository's directory and install the required libraries listed in the requirements.txt.
+`pip install -r requirements.txt`
+
+## Running the Notebooks
+1. Launch Jupyter Notebook or JupyterLab: With the dependencies installed, you can start Jupyter Notebook or JupyterLab to open and run the provided notebooks.
