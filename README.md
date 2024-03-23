@@ -41,6 +41,37 @@ This GitHub repository houses a specialized toolbox developed to facilitate the 
 
 The AI-assisted toolbox for quantifying mineral transformations leverages Python 3.9.13 and a suite of open-source libraries and frameworks, designed to facilitate the processing and analysis of image data from droplet microfluidic experiments. This section details the core components and provides links to external resources for users interested in further exploration or customization of the toolbox.
 
+## Detailed Guide on Image Annotation for Machine Learning
+
+Before leveraging the AI-Assisted Toolbox for Quantifying Mineral Transformations, it is essential to prepare your dataset through a meticulous image annotation process. This preparatory step is fundamental in training the toolbox's convolutional neural network (CNN) model to recognize and classify various mineral phases accurately.
+
+### Step-by-Step Annotation Process
+
+1. **Dataset Compilation**: Begin by compiling a diverse set of images from your microfluidic experiments. Ensure this dataset encompasses the full range of mineral transformations you aim to analyze, capturing different phases, conditions, and outcomes.
+
+2. **Choosing the Right Annotation Tool**: Select an annotation tool that aligns with your project's needs. The tool should offer precision in marking areas of interest and be user-friendly. Here are three recommended tools, each suitable for different aspects of annotation:
+   - **ImageJ**: Ideal for scientific images, allowing detailed annotations and measurements. [Download ImageJ](https://imagej.nih.gov/ij/download.html)
+   - **VGG Image Annotator (VIA)**: A versatile, web-based tool for annotating images, videos, and audio. It's user-friendly and suitable for beginners. [Access VIA](http://www.robots.ox.ac.uk/~vgg/software/via/)
+   - **ZEISS arivis Cloud**: Provides advanced annotation capabilities, particularly beneficial for handling large datasets and complex annotations. [Explore ZEISS arivis Cloud](https://www.zeiss.com/microscopy/int/products/microscope-software/arivis.html)
+
+3. **Manual Annotation Process**: Carefully annotate your images by delineating the areas of interest, such as specific mineral phases or features critical for your study. This step might involve drawing precise boundaries around regions or tagging certain features within the images.
+
+### Best Practices for Effective Annotation
+
+- **Consistency**: Maintain consistency in your annotations across the dataset. Consistent annotations are crucial for training the model effectively, as inconsistencies can lead to confusion and inaccuracies.
+
+- **Quality Assurance**: Prioritize the quality of annotations over quantity. High-quality, precise annotations significantly enhance the model's learning capability and overall accuracy.
+
+- **Familiarity with Data**: Deeply understand the features, phases, and transformations present in your images. A thorough knowledge of your subject matter is key to creating accurate and meaningful annotations.
+
+- **Collaboration and Review**: If possible, collaborate with peers for the annotation process. Having multiple reviewers can help ensure the accuracy and consistency of the annotations.
+
+### Importance of Detailed Annotations
+
+Detailed and accurate annotations are the cornerstone of effective machine learning model training. They serve as the "ground truth" that teaches the model how to interpret the images it will analyze. The quality of these annotations directly impacts the model's ability to identify mineral phases and transformations accurately, making it a critical step in your research workflow.
+
+By adhering to these guidelines and utilizing the recommended tools for annotation, you prepare your image data for successful analysis with the AI-Assisted Toolbox for Quantifying Mineral Transformations. This step, while time-consuming, is vital for unlocking the full analytical potential of the toolbox in advancing your mineralogical studies.
+
 ### Core Libraries and Frameworks
 
 #### Image Processing and Analysis:
