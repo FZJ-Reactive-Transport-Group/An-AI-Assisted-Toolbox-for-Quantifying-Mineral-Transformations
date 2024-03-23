@@ -129,8 +129,9 @@ After setting up your environment, you're ready to use the toolbox:
 1. Prepare your dataset according to the guidelines provided in the notebooks.
 2. Annotate your images, ensuring you have 60-80 well-annotated images to optimize the model's learning. Use recommended tools like ImageJ, VGG Image Annotator (VIA).
 3. Execute the notebooks in order, starting from preprocessing to training and testing the model.
-Note
-The quality, accuracy of shapes to be detected, and lighting conditions significantly affect the segmentation quality and the model's effectiveness. It's crucial to ensure your annotated images reflect the conditions of the microscopic shapes under investigation for optimal results.
+   
+### Note
+The effectiveness of the segmentation and the model's ability to detect microscopic shapes under investigation highly depend on the conditions of your annotated images. Optimal results are achieved when the images accurately reflect the microscopic shapes' quality, accuracy, and lighting conditions.
 
 ## Contributing
 
