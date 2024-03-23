@@ -107,6 +107,6 @@ Python 3.9 or higher
 Git (for cloning the repository)
 A compatible operating system (Windows or Linux)
 Installation
-Clone the repository: Clone this GitHub repository to your local machine to get started with the toolbox.
+### Clone the repository: Clone this GitHub repository to your local machine to get started with the toolbox.
 - git clone https://github.com/yourrepository/An-AI-Assisted-Toolbox-for-Quantifying-Mineral-Transformations.git
-
+### Create a virtual environment (optional but recommended): Using a virtual environment helps manage dependencies and avoid conflicts with other Python projects.
