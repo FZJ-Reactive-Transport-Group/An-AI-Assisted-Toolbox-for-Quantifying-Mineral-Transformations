@@ -98,3 +98,15 @@ These tools offer in-depth documentation and community support for further learn
 - Specialize in image segmentation using **[StarDist](https://github.com/mpicbg-csbd/stardist)**.
 
 Designed as a dynamic and adaptable platform, this toolbox encourages customization to meet specific mineralogical research needs, facilitating the automated quantification of mineral transformations.
+
+## Getting Started
+This section guides you through setting up your environment to use the AI-Assisted Toolbox for Quantifying Mineral Transformations.
+
+## Prerequisites
+Python 3.9 or higher
+Git (for cloning the repository)
+A compatible operating system (Windows or Linux)
+Installation
+Clone the repository: Clone this GitHub repository to your local machine to get started with the toolbox.
+git clone https://github.com/yourrepository/An-AI-Assisted-Toolbox-for-Quantifying-Mineral-Transformations.git
+
