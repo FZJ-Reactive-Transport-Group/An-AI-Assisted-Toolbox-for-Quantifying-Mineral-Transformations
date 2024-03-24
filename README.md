@@ -156,7 +156,7 @@ To contribute:
 - Create a new branch for your feature or fix.
 - Submit a pull request with a clear description of your changes.
 
-Please refer to our [Contribution Guidelines](LINK) for more detailed information.
+Please refer to our [Contribution Guidelines](CONTRIBUTING.md) for more detailed information.
 
 ## License
 
