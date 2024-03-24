@@ -173,7 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) f
 - A: Currently, the toolbox is optimized for Windows and Linux. macOS compatibility is planned for future updates.
 
 - **Q: How many images do I need to start analyzing my data?**
-- A: A set of 60-80 well-annotated images is recommended for meaningful analysis. The quality, accuracy of shapes to be detected, and lighting conditions significantly affect the segmentation quality and the model's ability to detect the microscopic shapes under investigation.
+- A: A set of 40-50 well-annotated images is recommended for meaningful analysis. The quality, accuracy of shapes to be detected, and lighting conditions significantly affect the segmentation quality and the model's ability to detect the microscopic shapes under investigation.
 
 - **Q: What should I do if I encounter an error during installation?**
 - A: Ensure all prerequisites are installed and check the error message for clues. For further assistance, please open an issue in the GitHub repository.
